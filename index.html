@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nullstyle.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="furnaces">
+                <div class="furnace">
+                    <div class="furnace_temp" id="1">20</div>
+                    <div class="lines" id="1"></div>                                        
+                    <div class="furnace_weight" id="1">70</div>
+                </div>
+                <div class="furnace">
+                    <div class="furnace_temp" id="2">30</div>                   
+                    <div class="furnace_weight" id="2">10</div>
+                    <div class="lines" id="2"></div>
+                </div>
+                <div class="furnace">
+                    <div class="furnace_temp" id="3">40</div>
+                    <div class="lines" id="3"></div>
+                    <div class="furnace_weight" id="3">50</div>
+                </div>
+            </div>
+            <div class="chart">
+                <canvas class="chart" id="myChart"></canvas>
+            </div>           
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
