@@ -30,4 +30,4 @@
 
 - The color of the temperature output changes according to the level.
 
-Translated with www.DeepL.com/Translator (free version)
+
